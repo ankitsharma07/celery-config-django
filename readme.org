@@ -1,0 +1,8 @@
+#+title: Celery Base Config
+
+
+
+To run a celery worker
+#+begin_src shell
+celery -A project.celery worker -l info
+#+end_src
